@@ -1,7 +1,7 @@
 # GoFlow
 This repository contains a minimal version of GoFlow which makes it particularly easy to get up and running. GoFlow is an open-source model for predicting transition state geometries of single-step organic reactions.
 
-# Installation
+## Installation
 
 Create environment, activate, and install GoFlow in editable mode
 ```bash
