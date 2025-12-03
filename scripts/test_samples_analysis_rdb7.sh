@@ -8,7 +8,7 @@
 
 cd /home/leonard.galustian/projects/goflowv2 || exit
 
-mamba activate gotennet
+mamba activate goflow
 
 SAMPLE_PATH="/home/leonard.galustian/projects/goflowv2/logs/test_save_all_samples/multiruns/2025-12-02_08-54-04/0/test_samples/samples_all.pkl"
 
