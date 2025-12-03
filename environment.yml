@@ -1,0 +1,20 @@
+name: goflow
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel
+  - numpy
+  - pandas
+  - pip
+  - rdkit
+  - tqdm
+  - ase
+  - pip:
+    - hydra-core
+    - lightning
+    - torchdiffeq
+    - wandb
+    - pymatgen
+    - einops
+    - rich

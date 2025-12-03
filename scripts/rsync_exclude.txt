@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.vscode/
+*.pyc
+*.pyo
+*.pyd
+*.so
+old/
+.git/
+wandb/
+logs/
+*.log
+*.out
+.DS_Store
+uv.lock

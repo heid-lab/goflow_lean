@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "goflow"
+version = "0.2.0"
+authors = [
+    { name = "Leonard Galustian", email = "leonard.galustian@tuwien.ac.at" },
+]
+description = "GoFlow: Transition State Geometry Generation"
+license = { text = "MIT License" }
+requires-python = ">=3.11"
+dependencies = []
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
