@@ -8,7 +8,7 @@
 
 cd /home/leonard.galustian/projects/goflowv2 || exit
 
-mamba activate gotennet
+mamba activate goflow
 
 MODEL_PATH="/home/leonard.galustian/projects/goflowv2/logs/train_rdb7/multiruns/2025-12-02_07-54-39/0/checkpoints/epoch_316.ckpt"
 
