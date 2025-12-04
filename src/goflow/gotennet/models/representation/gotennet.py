@@ -447,7 +447,7 @@ class TimestepEmbedding(nn.Module):
         )
 
     def forward(self, timesteps):
-        t_emb = get_timestep_embedding(timesteps.squeeze(), self.embedding_dim)
+        t_emb = get_timestep_embedding(timesteps.reshape(-1), self.embedding_dim)
         t_emb_mlp = self.mlp(t_emb)
         return t_emb_mlp
 
