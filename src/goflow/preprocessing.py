@@ -185,7 +185,7 @@ if __name__ == "__main__":
     rxn_indices_R = df.rxn
     # Read xyz file with gt TS data
     xyz_blocks_3R = parse_xyz_corpus_ase(args.xyz_file)
-    rxn_block_R_N_3 = [np.array(xyz_blocks_3R[i+1]) for i in range(0, len(xyz_blocks_3R), 3)] # i+1 => take the TS
+    rxn_block_R_N_3 = [np.array(xyz_blocks_3R[i]) for i in range(len(xyz_blocks_3R))]
 
     data_list_R = []
     for (id, smiles, xyz_N_3) in tqdm.tqdm(zip(rxn_indices_R, rxn_smiles_R, rxn_block_R_N_3)):
